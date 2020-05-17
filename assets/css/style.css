@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
 
-/* -------- Header Style -------*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
-
 body {
   font-family: Arial;
   margin: 0;
@@ -17,26 +13,61 @@ body {
   color: black;
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
+  display: flex;
 }
 
 .navbar{
+    width: 100%; 
     text-align: right;
     color: black;
+    display: block; 
 }
 .justify-content-end{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 15px;   
 }
 
+li a {
+    color: black;
+    text-transform: uppercase;
+}
+
+.logo {
+    width:20%;
+}
 /* --------- Background -------- */
 
 #image{
-    height:600px;
+    height:800px;
     width: 100%;
-    background: url('assets/images/dog5.jpg');
+    background-image: url('../images/dog5.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 1452px 720px;   
 }
 
 /* --------- Page Content -------- */
 .content {
     padding:20px;
-    }
+    position: absolute;
+    width: 394px;
+    height: 329px;
+    left: 93px;
+    top: 386px;
+ }
+
+.content-head {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.content-box {
+    position: absolute;
+    width: 541px;
+    height:800px;
+    left: -0.5px;
+    top: 283px;
+    background: rgba(196, 196, 196, 0.63);
