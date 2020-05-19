@@ -35,6 +35,23 @@ li a {
 .logo {
     width:20%;
 }
+
+/* --------- Mobile ---------*/
+
+.body {
+     background-color: #dffaff;
+     opacity: 0.7;
+ }
+ 
+ @media only screen and (max-device-width: 1174px {
+ 
+     body {
+         font-size: 24px;
+         background-color: #BEB29B;
+     }
+ 
+ }
+
 /* --------- Background -------- */
 
 #image{
