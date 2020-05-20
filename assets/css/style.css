@@ -42,24 +42,14 @@ li a {
      background-color: #dffaff;
      opacity: 0.7;
  }
- 
- @media only screen and (max-device-width: 1174px {
- 
-     body {
-         font-size: 24px;
-         background-color: #BEB29B;
-     }
- 
- }
 
 /* --------- Background -------- */
 
 #image{
     height:800px;
     width: 100%;
-    background-image: url('../images/dog5.jpg'); 
-    background-repeat: no-repeat;
-    background-size: 1452px 720px;   
+    background-image: url("../images/dog5.jpg");
+    display: block;
 }
 
 /* --------- Page Content -------- */
@@ -87,4 +77,34 @@ li a {
     height:800px;
     left: -0.5px;
     top: 283px;
-    background: rgba(196, 196, 196, 0.63);
+    background-color: rgba(196, 196, 196, 0.63);
+}
+
+@media only screen and (max-device-width: 1174px) {
+
+    .header {
+        width: 100%;
+        flex-direction: column;
+        padding: 4%;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+    }
+
+    .content-head {
+        color: black;
+        margin-top: 30%;
+        margin-bottom: 10%;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .justify-content-end{
+        justify-content: center !important;
+    }
+
+}
