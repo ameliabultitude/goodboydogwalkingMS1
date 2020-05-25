@@ -11,9 +11,23 @@ body {
   text-align: left;
   background: #BEB29B;
   color: black;
-  font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
   display: flex;
+}
+
+.header-lrg {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header-med{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.header.sml{
+    font-weight: lighter;
+    font-size: 15px
 }
 
 .navbar{
@@ -77,9 +91,9 @@ li a {
 .content-box {
     position: absolute;
     width: 40%;
-    height:158%;
+    height:146.7%;
     left: 0%;
-    top: 71.2%;
+    top: 66.2%;
     background-color: rgba(196, 196, 196, 0.63);
 }
 
