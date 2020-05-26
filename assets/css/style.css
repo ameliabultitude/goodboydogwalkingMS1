@@ -18,17 +18,14 @@ body {
 .header-lrg {
     font-weight: bold;
     font-size: 50px;
-    text-align: center;
 }
 
 .header-med{
     font-weight: normal;
     font-size: 30px;
-    text-align: center;
 }
 
 .header.sml{
-    text-align: center;
     font-weight: lighter;
     font-size: 15px;
 }
@@ -51,6 +48,7 @@ li a {
 
 .logo {
     width:20%;
+    text-align: center;
 }
 
 /* --------- Mobile ---------*/
@@ -68,16 +66,17 @@ li a {
     background-image: url("../images/dog5.jpg");
     display: block;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* --------- Page Content -------- */
+/* --------- Page Contents -------- */
 .content {
     padding:10%;
-    position: absolute;
+    position: relative;
     width: 80%;
     height: 120%;
     left: 10%;
-    top: 150%;
+    top: 200%;
     text-align: center;
  }
 
