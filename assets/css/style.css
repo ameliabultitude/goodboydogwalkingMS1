@@ -36,6 +36,12 @@ body {
     color: black;
     display: block; 
 }
+
+.navbar a:hover {
+  background-color: #7c6232;
+  color: black;
+}
+
 .justify-content-end{
     font-family: "Roboto Condensed", sans-serif;
     font-size: 15px;   
@@ -58,7 +64,7 @@ li a {
      opacity: 0.7;
  }
 
-/* --------- Background -------- */
+/* --------- Backgrounds -------- */
 
 #bg-image{
     height:1000px;
@@ -69,7 +75,11 @@ li a {
     background-size: cover;
 }
 
-/* --------- Page Contents -------- */
+.bg-color-about{
+    background-color: #dfd4c0;
+}
+
+/* --------- Index Page Contents -------- */
 .content {
     padding:10%;
     position: relative;
@@ -98,6 +108,14 @@ li a {
     left: 0%;
     top: 0%;
     background-color: rgba(196, 196, 196, 0.63);
+}
+
+/* --------- About Content --------- */
+
+.head-img-about  {
+    display: block;
+    background-image: url(".../images/dog4.jpg");
+    width: 100%;
 }
 
 /* --------- Footer --------- */
