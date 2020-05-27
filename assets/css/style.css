@@ -154,8 +154,18 @@ li a {
 
 }
 
-.aboutIMG1 {
+.aboutContent {
+    padding: 0% 5% 0% 5%;
+}
+
+.aboutIMG {
     height: auto;
+    width: 60%;
+}
+
+.aboutIMG2 {
+    height: auto;
+    width: 80%;
 }
 
 .aboutWrapper-1 {
@@ -163,8 +173,29 @@ li a {
     flex-drection: row;
     align-items: center;
     justify-content: center;
-    padding: 0% 5% 0% 5%;
 }
+
+.aboutWrapper-1half {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutWrapper-2 {
+    display: flex;
+    flex-drection: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+}
+
+.left-text {
+    width: 100%;
+    text-align: center;
+}
+
 
 /* --------- Footer --------- */
 
