@@ -112,16 +112,33 @@ li a {
 
 /* --------- Banners --------- */
 
-.hero-img-about  {
-    margin: 0 auto;
-    background-image: url(".../images/dog4.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
+.hero-img-about {
+    background: url(".../images/dog4.jpg");
+    position: absolute;
+    width: 1452px;
+    height: 621px;
 }
 
 /* --------- About Content --------- */
 
+.about-header {
+    font-family: Roboto Condensed;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.img1 {
+    width:100px; /*width of your image*/
+    height:100px; /*height of your image*/
+    background-image:url(.../images/arina.jpg);
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+}
 
 /* --------- Footer --------- */
 
