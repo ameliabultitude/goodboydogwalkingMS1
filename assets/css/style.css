@@ -110,13 +110,18 @@ li a {
     background-color: rgba(196, 196, 196, 0.63);
 }
 
+/* --------- Banners --------- */
+
+.hero-img-about  {
+    margin: 0 auto;
+    background-image: url(".../images/dog4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
 /* --------- About Content --------- */
 
-.head-img-about  {
-    display: block;
-    background-image: url(".../images/dog4.jpg");
-    width: 100%;
-}
 
 /* --------- Footer --------- */
 
