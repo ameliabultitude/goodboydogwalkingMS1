@@ -271,6 +271,15 @@ li a {
     padding: 4%;
 }
 
+/* --------- Service Pictures --------- */
+
+.walkIMG{
+    display: block;
+    width: 10%;
+    height: 10%;
+    margin-left: 70%;
+}
+
 /* --------- Footer --------- */
 
 .footer { 
