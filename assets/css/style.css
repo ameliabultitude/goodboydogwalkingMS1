@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+section {
+    background-color: #dfd4c0;
+}
+
 /* Header/Logo Title/Navbar */
 .header{
   padding: 4%;
@@ -55,6 +59,14 @@ li a {
 .logo {
     width:20%;
     text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo a:hover{
+    background-color: #BEB29B;
+    color: #000000;
+    text-decoration: none;
 }
 
 /* --------- Mobile ---------*/
@@ -76,12 +88,6 @@ li a {
 }
 
 .bg-color-about{
-    background-color: #dfd4c0;
-    display: flex;
-    flex-direction: column;
-}
-
-.bg-color-services{
     background-color: #dfd4c0;
     display: flex;
     flex-direction: column;
@@ -211,6 +217,12 @@ li a {
 
 /* --------- Service Page Contents -------- */
 
+.bg-color-services{
+    background-color: #dfd4c0;
+    display: flex;
+    flex-direction: column;
+}
+ 
 .service-header{
     font-family: Roboto Condensed;
     font-weight: bolder;
@@ -219,7 +231,17 @@ li a {
     text-align: center;
     padding: 4%;
 }
-
+ 
+.spacer {
+    width: 10%;
+}
+ 
+.walksWrapper{
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+ 
 .walks-title{
     font-family: Roboto Condensed;
     margin-left: 20%;
@@ -227,7 +249,7 @@ li a {
     font-weight: bold;
     padding: 2%;
 }
-
+ 
 .daycare-title{
     font-family: Roboto Condensed;
     margin-left: 20%;
@@ -235,7 +257,7 @@ li a {
     font-weight: bold;
     padding: 2%;
 }
-
+ 
 .service-title{
     font-family: Roboto Condensed;
     margin-left: 20%;
@@ -243,20 +265,20 @@ li a {
     font-weight: bold;
     padding: 2%;
 }
-
+ 
 .first-text-service{
     font-family: Roboto Condensed;
     margin-left: 20%;
     font-size: 15px;
-    
+   
 }
-
+ 
 .second-text-service{
     font-family: Roboto Condensed;
     margin-left: 20%;
     font-size: 15px;
 }
-
+ 
 .third-text-service{
     font-family: Roboto Condensed;
     margin-left: 20%;
@@ -270,15 +292,15 @@ li a {
     font-size: 15px;
     padding: 4%;
 }
-
+ 
 /* --------- Service Pictures --------- */
-
+ 
 .walkIMG{
     display: block;
     width: 10%;
     height: 10%;
-    margin-left: 70%;
 }
+
 
 /* --------- Footer --------- */
 
@@ -336,6 +358,9 @@ li a {
         justify-content: center !important;
     }
 
+    .walkIMG {
+        display: hidden;
+    }
 }
 
 @media (min-device-width: 568px)(max-device-width: 812px){
@@ -377,6 +402,8 @@ li a {
     .justify-content-end{
         justify-content: center !important;
     }
+
+    
 }
 
 @media (min-device-width: 1024px)(max-device-width: 1366px){
