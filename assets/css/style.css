@@ -81,6 +81,12 @@ li a {
     flex-direction: column;
 }
 
+.bg-color-services{
+    background-color: #dfd4c0;
+    display: flex;
+    flex-direction: column;
+}
+
 /* --------- Index Page Contents -------- */
 .content {
     padding:10%;
@@ -124,18 +130,25 @@ li a {
     background-position: center;
 }
 
+.hero-img-services {
+    background: url("../images/dog6.jpg");
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* --------- About Content --------- */
 
 .about-header {
     font-family: Roboto Condensed;
-    text-transform: uppercase;
     font-weight: bolder;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 30px;
     color: #000000;
     text-align: center;
-    margin-bottom: 4%;
-    padding-top: 4%;
+    padding: 4%;
 }
 
 .img1 {
@@ -196,6 +209,67 @@ li a {
     text-align: center;
 }
 
+/* --------- Service Page Contents -------- */
+
+.service-header{
+    font-family: Roboto Condensed;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    padding: 4%;
+}
+
+.walks-title{
+    font-family: Roboto Condensed;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.daycare-title{
+    font-family: Roboto Condensed;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.service-title{
+    font-family: Roboto Condensed;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.first-text-service{
+    font-family: Roboto Condensed;
+    margin-left: 20%;
+    font-size: 15px;
+    
+}
+
+.second-text-service{
+    font-family: Roboto Condensed;
+    margin-left: 20%;
+    font-size: 15px;
+}
+
+.third-text-service{
+    font-family: Roboto Condensed;
+    margin-left: 20%;
+    font-size: 15px;
+}
+.bottom-text-service {
+    font-family: Roboto Condensed;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+    padding: 4%;
+}
 
 /* --------- Footer --------- */
 

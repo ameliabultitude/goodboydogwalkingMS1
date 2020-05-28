@@ -2,4 +2,4 @@
 <p>This is a website explaining a service offered for pets and livestock, in a certain area. The website is layed out over four pages. There is a fifth page which was added in as a request to showcase pieces of art commisioned.</p>
 <p>This website is being created for a milestone project, I have come across bugs and slight errors which I have continued to work through. I am aiming to get a page done a day.</p>
 <p>On the 27th of May, I am aiming to get my images in place on my about.html, have come across some errors in sizing of the images which have slowed down the process. But debugging and working through.</p>
-
+<p>On the 28th of May, I am aiming to get my services.html page set up with the copied header and footer, adjust my hrefs as I go alongn insert correct hero image and then put in my text and images further down ready for styling in my stylesheet.</p>
