@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
-
+ 
 body {
   font-family: Arial;
   margin: 0;
 }
-
+ 
 section {
     background-color: #dfd4c0;
 }
-
+ 
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+ 
 /* Header/Logo Title/Navbar */
 .header{
   padding: 4%;
@@ -18,66 +23,66 @@ section {
   font-family: "Roboto Condensed", sans-serif;
   display: flex;
 }
-
+ 
 .header-lrg {
     font-weight: bold;
     font-size: 50px;
 }
-
+ 
 .header-med{
     font-weight: normal;
     font-size: 30px;
 }
-
+ 
 .header.sml{
     font-weight: lighter;
     font-size: 15px;
 }
-
+ 
 .navbar{
-    width: 100%; 
+    width: 100%;
     text-align: right;
     color: black;
-    display: block; 
+    display: block;
 }
-
+ 
 .navbar a:hover {
   background-color: #7c6232;
   color: black;
 }
-
+ 
 .justify-content-end{
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 15px;   
+    font-size: 15px;  
 }
-
+ 
 li a {
     color: black;
     text-transform: uppercase;
 }
-
+ 
 .logo {
     width:20%;
     text-align: center;
     text-decoration: none;
     color: #000000;
 }
-
+ 
 .logo a:hover{
     background-color: #BEB29B;
     color: #000000;
     text-decoration: none;
 }
-
+ 
 /* --------- Mobile ---------*/
-
+ 
 .body {
      background-color: #dffaff;
      opacity: 0.7;
  }
-
+ 
 /* --------- Backgrounds -------- */
-
+ 
 #bg-image{
     height:1000px;
     width: 100%;
@@ -86,13 +91,13 @@ li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+ 
 .bg-color-about{
     background-color: #dfd4c0;
     display: flex;
     flex-direction: column;
 }
-
+ 
 /* --------- Index Page Contents -------- */
 .content {
     padding:10%;
@@ -103,7 +108,7 @@ li a {
     top: 200%;
     text-align: center;
  }
-
+ 
 .content-head {
     font-family: Roboto Condensed;
     font-style: normal;
@@ -114,7 +119,7 @@ li a {
     text-align: center;
     margin-bottom: 20%;
 }
-
+ 
 .content-box {
     position: relative;
     width: 50%;
@@ -123,9 +128,9 @@ li a {
     top: 0%;
     background-color: rgba(196, 196, 196, 0.63);
 }
-
+ 
 /* --------- Banners --------- */
-
+ 
 .hero-img-about {
     background: url("../images/dog4.jpg");
     position: relative;
@@ -135,7 +140,7 @@ li a {
     background-size: cover;
     background-position: center;
 }
-
+ 
 .hero-img-services {
     background: url("../images/dog6.jpg");
     position: relative;
@@ -145,9 +150,9 @@ li a {
     background-size: cover;
     background-position: center;
 }
-
+ 
 /* --------- About Content --------- */
-
+ 
 .about-header {
     font-family: Roboto Condensed;
     font-weight: bolder;
@@ -156,49 +161,49 @@ li a {
     text-align: center;
     padding: 4%;
 }
-
+ 
 .img1 {
-    width:30%; 
-    height:30%; 
+    width:30%;
+    height:30%;
     background-image:url("../images/arina.jpg");
-    margin:0; 
-    padding:0; 
+    margin:0;
+    padding:0;
 }
-
+ 
 .top-p {
     font-family: Roboto Condensed;
     font-size: 18px;
     text-align: center;
     padding-bottom: 4rem;
-
+ 
 }
-
+ 
 .aboutContent {
     padding: 0% 5% 0% 5%;
 }
-
+ 
 .aboutIMG {
     height: auto;
     width: 60%;
 }
-
+ 
 .aboutIMG2 {
     height: auto;
     width: 80%;
 }
-
+ 
 .aboutWrapper-1 {
     display: flex;
     flex-drection: row;
     align-items: center;
     justify-content: center;
 }
-
+ 
 .aboutWrapper-1half {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
+ 
 .aboutWrapper-2 {
     display: flex;
     flex-drection: row;
@@ -209,14 +214,14 @@ li a {
     height: auto;
     margin-right: auto;
 }
-
+ 
 .left-text {
     width: 100%;
     text-align: center;
 }
-
+ 
 /* --------- Service Page Contents -------- */
-
+ 
 .bg-color-services{
     background-color: #dfd4c0;
     display: flex;
@@ -235,11 +240,11 @@ li a {
 .spacer {
     width: 13.5%;
 }
-
+ 
 .spacer2 {
     width: 12.5%;
 }
-
+ 
 .spacer3 {
     width: 9.5%;
 }
@@ -308,14 +313,14 @@ li a {
     width: 10%;
     height: 10%;
 }
-
-
+ 
+ 
 /* --------- Footer --------- */
-
-.footer { 
+ 
+.footer {
     background-color: #BEB29B;
 }
-
+ 
 .social-icons{
     font-size: 32px;
     color:black;
@@ -323,28 +328,28 @@ li a {
     letter-spacing: 12px;
     text-decoration: none;
 }
-
+ 
 /* Media */
-
+ 
 @media (max-device-width: 600px){
-
+ 
     .header {
         width: 100%;
         flex-direction: column;
         padding: 4%;
         text-align: center;
     }
-
+ 
     header {
         display: flex;
     }
-
+ 
     .content-head {
         color: black;
         margin-top: 50%;
         margin-bottom: 10%;
     }
-
+ 
     .content-box {
         position: relative;
         width: 100%;
@@ -352,40 +357,40 @@ li a {
         left: 0%;
         top: 0%;
         background-color: rgba(196, 196, 196, 0.63);
-
+ 
     }
-
+ 
     .content {
         text-align: center;
     }
     .logo {
         width: 100%;
     }
-
+ 
     .justify-content-end{
         justify-content: center !important;
     }
-
-
+ 
+ 
 @media (min-device-width: 568px)(max-device-width: 812px){
-
+ 
     .header {
         width: 100%;
         flex-direction: column;
         padding: 4%;
         text-align: center;
     }
-
+ 
     header {
         display: flex;
     }
-
+ 
     .content-head {
         color: black;
         margin-top: 50%;
         margin-bottom: 10%;
     }
-
+ 
     .content-box {
         position: relative;
         width: 100%;
@@ -393,42 +398,42 @@ li a {
         left: 0%;
         top: 0%;
         background-color: rgba(196, 196, 196, 0.63);
-
+ 
     }
-
+ 
     .content {
         text-align: center;
     }
     .logo {
         width: 100%;
     }
-
+ 
     .justify-content-end{
         justify-content: center !important;
     }
-
-    
+ 
 }
-
+}
+ 
 @media (min-device-width: 1024px)(max-device-width: 1366px){
-
+ 
     .header {
         width: 100%;
         flex-direction: column;
         padding: 4%;
         text-align: center;
     }
-
+ 
     header {
         display: flex;
     }
-
+ 
     .content-head {
         color: black;
         margin-top: 50%;
         margin-bottom: 10%;
     }
-
+ 
     .content-box {
         position: relative;
         width: 50%;
@@ -436,17 +441,21 @@ li a {
         left: 0%;
         top: 0%;
         background-color: rgba(196, 196, 196, 0.63);
-
+ 
     }
-
+ 
     .content {
         text-align: center;
     }
     .logo {
         width: 100%;
     }
-
+ 
     .justify-content-end{
         justify-content: center !important;
+    }
+ 
+    .walkIMG {
+        display: none;
     }
 }

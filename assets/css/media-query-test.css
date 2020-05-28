@@ -1,0 +1,11 @@
+@media only screen and (max-device-width: 1174px) {
+ 
+    .walkIMG, .spacer, .spacer2, .spacer3 {
+        display: none;
+    }
+ 
+    .first-text-service, .second-text-service, .third-text-service, .service-title, .daycare-title, .walks-title {
+        margin-left: 0%;
+        text-align: center;
+    }
+}
