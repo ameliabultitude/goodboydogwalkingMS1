@@ -233,7 +233,15 @@ li a {
 }
  
 .spacer {
-    width: 10%;
+    width: 13.5%;
+}
+
+.spacer2 {
+    width: 12.5%;
+}
+
+.spacer3 {
+    width: 9.5%;
 }
  
 .walksWrapper{
@@ -358,10 +366,6 @@ li a {
         justify-content: center !important;
     }
 
-    .walkIMG {
-        display: hidden;
-    }
-}
 
 @media (min-device-width: 568px)(max-device-width: 812px){
 
