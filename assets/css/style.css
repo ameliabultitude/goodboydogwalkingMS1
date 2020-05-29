@@ -160,7 +160,16 @@ li a {
     background-size: cover;
     background-position: center;
 }
-
+ 
+.hero-img-art {
+    background: url("../images/dog8.jpg");
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* --------- About Content --------- */
  
 .about-header {
@@ -307,7 +316,7 @@ li a {
     margin-left: 20%;
     font-size: 15px;
 }
-
+ 
 .bottom-text-service {
     font-family: Roboto Condensed;
     text-align: center;
@@ -326,7 +335,7 @@ li a {
 }
  
 /* --------- Contact Content --------- */
-
+ 
 .contact-header {
     font-family: Roboto Condensed;
     font-weight: bolder;
@@ -335,7 +344,7 @@ li a {
     text-align: center;
     padding-top: 4%;
 }
-
+ 
 .contact-text1 {
     font-family: Roboto Condensed;
     font-size: 15px;
@@ -343,7 +352,7 @@ li a {
     margin-left: 20%;
     text-align: center;
 }
-
+ 
 .contact-text-2 {
     font-family: Roboto Condensed;
     font-weight: bold;
@@ -354,32 +363,32 @@ li a {
     padding: 0;
     margin-top: 2%;
 }
-
+ 
 .bottom-text-contact {
     font-family: Roboto Condensed;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    padding-top: 2%;
     font-size: 15px;
+    padding-bottom: 2%;
 }
-
+ 
 /* --------- Contact Form --------- */
-
+ 
 input, select, textarea {
     font-family: Roboto Condensed;
-    width: 100%; 
+    width: 100%;
     padding: 12px;  
     border: 1px solid white;
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
     text-align: center;
 }
-
+ 
 input[type=submit] {
     font-family: Roboto Condensed;
     background-color: #BEB29B;
@@ -389,16 +398,37 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
 }
-
+ 
 input[type=submit]:hover {
   background-color: #7c6232;
 }
-
+ 
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+ 
+label {
+    font-family: "Roboto Condensed";
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* --------- Art Content --------- */
+
+.art-header {
+    font-family: Roboto Condensed;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    padding-top: 4%;
+    margin-block-end: 0%;
 }
 
 /* --------- Footer --------- */
