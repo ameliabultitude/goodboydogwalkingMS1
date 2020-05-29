@@ -16,7 +16,10 @@ a:hover {
  
 /* Header/Logo Title/Navbar */
 .header{
-  padding: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
   text-align: left;
   background: #BEB29B;
   color: black;
@@ -182,8 +185,8 @@ li a {
 }
  
 .img1 {
-    width:30%;
-    height:30%;
+    width:40%;
+    height:40%;
     background-image:url("../images/arina.jpg");
     margin:0;
     padding:0;
@@ -194,7 +197,7 @@ li a {
     font-size: 18px;
     text-align: center;
     padding-bottom: 4rem;
- 
+     
 }
  
 .aboutContent {
