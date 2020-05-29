@@ -298,20 +298,7 @@ li a {
     padding: 2%;
 }
  
-.first-text-service{
-    font-family: Roboto Condensed;
-    margin-left: 20%;
-    font-size: 15px;
-   
-}
- 
-.second-text-service{
-    font-family: Roboto Condensed;
-    margin-left: 20%;
-    font-size: 15px;
-}
- 
-.third-text-service{
+.first-text-service, .second-text-service, .third-text-service{
     font-family: Roboto Condensed;
     margin-left: 20%;
     font-size: 15px;
@@ -376,6 +363,7 @@ li a {
  
 /* --------- Contact Form --------- */
  
+ 
 input, select, textarea {
     font-family: Roboto Condensed;
     width: 100%;
@@ -431,6 +419,9 @@ label {
     margin-block-end: 0%;
 }
 
+.noMargin {
+    margin: 0%;
+}
 /* --------- Footer --------- */
  
 .footer {
