@@ -3,6 +3,7 @@
 body {
   font-family: Arial;
   margin: 0;
+  height: auto;
 }
  
 section {
@@ -13,18 +14,31 @@ a:hover {
     text-decoration: none;
     color: black;
 }
+
+    /* Social  Icons CSS */
+    .grow:hover {
+        transform: scale(1.2);
+        transition: all .2s ease-in-out;
+    }
  
 /* Header/Logo Title/Navbar */
 .header{
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 4%;
-  padding-right: 4%;
-  text-align: left;
-  background: #BEB29B;
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: left;
+    background: #BEB29B;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.headerWrapper{
+    height: 16vh;
 }
  
 .header-lrg {
@@ -65,7 +79,7 @@ li a {
 }
  
 .logo {
-    width:20%;
+    width:40%;
     text-align: center;
     text-decoration: none;
     color: #000000;
@@ -87,7 +101,7 @@ li a {
 /* --------- Backgrounds -------- */
  
 #bg-image{
-    height:1000px;
+    height:100%;
     width: 100%;
     background-image: url("../images/dog5.jpg");
     display: block;
@@ -99,7 +113,11 @@ li a {
     background-color: #dfd4c0;
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
+
  
 /* --------- Index Page Contents -------- */
 .content {
@@ -120,7 +138,8 @@ li a {
     line-height: 56px;
     color: #000000;
     text-align: center;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
+    margin-top: 6%;
 }
  
 .content-box {
@@ -148,7 +167,7 @@ li a {
     background: url("../images/dog6.jpg");
     position: relative;
     width: 100%;
-    height: 30rem;
+    height: 38rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -158,7 +177,7 @@ li a {
     background: url("../images/dog9.jpg");
     position: relative;
     width: 100%;
-    height: 30rem;
+    height: 38rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -205,8 +224,10 @@ li a {
 }
  
 .aboutIMG {
-    height: auto;
-    width: 60%;
+    display: block;
+    margin-left: none;
+    margin-right: auto;
+    width: 80%;
 }
  
 .aboutIMG2 {
@@ -216,25 +237,27 @@ li a {
  
 .aboutWrapper-1 {
     display: flex;
-    flex-drection: row;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
 }
  
 .aboutWrapper-1half {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
  
 .aboutWrapper-2 {
     display: flex;
-    flex-drection: row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     width: 50%;
     height: auto;
     margin-right: auto;
+    padding-bottom: 6%;
 }
  
 .left-text {
@@ -258,53 +281,31 @@ li a {
     text-align: center;
     padding: 4%;
 }
- 
-.spacer {
-    width: 13.5%;
-}
- 
-.spacer2 {
-    width: 12.5%;
-}
- 
-.spacer3 {
-    width: 9.5%;
+
+.boxesWrapper{
+    display: flex;
+    flex-direction: row;
 }
  
 .walksWrapper{
     justify-content: center;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+
 }
  
-.walks-title{
+.walks-title, .daycare-title, .service-title {
     font-family: Roboto Condensed;
-    margin-left: 20%;
     font-size: 20px;
     font-weight: bold;
     padding: 2%;
-}
- 
-.daycare-title{
-    font-family: Roboto Condensed;
-    margin-left: 20%;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 2%;
-}
- 
-.service-title{
-    font-family: Roboto Condensed;
-    margin-left: 20%;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 2%;
+    text-align: center;
 }
  
 .first-text-service, .second-text-service, .third-text-service{
     font-family: Roboto Condensed;
-    margin-left: 20%;
     font-size: 15px;
+    text-align: center;
 }
  
 .bottom-text-service {
@@ -320,8 +321,10 @@ li a {
  
 .walkIMG{
     display: block;
-    width: 10%;
-    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
 }
  
 /* --------- Contact Content --------- */
@@ -399,7 +402,7 @@ input[type=submit]:hover {
  
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #ddd7ca;
   padding: 20px;
 }
  
@@ -425,10 +428,99 @@ label {
 .noMargin {
     margin: 0%;
 }
+
+.left-text-art{
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.left-image-art {
+    width: 70%;
+}
+
+.right-text-art{
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 80%;
+}
+
+.middle-image-art{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.artIMAGE {
+    width: 50%;
+}
+
+.spacerALT {
+    width: 10%;
+}
+
+.artWrapper-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+    padding-bottom: 6%;
+}
+
+.artWrapper-3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.bottom-text-art{
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+/* --------- Art Pictures --------- */
+
+.artIMG1{
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/art2.jpg");
+}
+
+.artIMG2{
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/art1.jpg");
+}
+
+.artIMG3{
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/art3.jpg");
+}
 /* --------- Footer --------- */
  
 .footer {
     background-color: #BEB29B;
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 50px;
 }
  
 .social-icons{
@@ -482,7 +574,7 @@ label {
     }
  
  
-@media (min-device-width: 568px)(max-device-width: 812px){
+@media (min-device-width: 568px)(max-device-width: 812px) {
  
     .header {
         width: 100%;
@@ -521,8 +613,13 @@ label {
     .justify-content-end{
         justify-content: center !important;
     }
- 
-}
+
+    /* ----- Image on about ----- */
+
+    .left-image{
+        vertical-align: top;
+        width: 50%;
+    }
 }
  
 @media (min-device-width: 1024px)(max-device-width: 1366px){
@@ -565,7 +662,11 @@ label {
         justify-content: center !important;
     }
  
-    .walkIMG {
-        display: none;
+
+    /* ----- Image on about ----- */
+
+    .left-image{
+        vertical-align: top;
+        width: 50%;
     }
 }

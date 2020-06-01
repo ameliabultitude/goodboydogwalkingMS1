@@ -1,6 +1,13 @@
-@media only screen and (max-device-width: 1174px) {
+@media only screen and (max-device-width: 1024px) {
+
+    .headerWrapper {
+        height: 12vh;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
  
-    .walkIMG, .spacer, .spacer2, .spacer3 {
+    .spacer, .spacer2, .spacer3 {
         display: none;
     }
  
@@ -8,4 +15,53 @@
         margin-left: 0%;
         text-align: center;
     }
+
+    .boxesWrapper {
+        flex-direction: column;
+    }
+    /* About  Page Mobile*/
+
+    .headerWrapper {
+        height: 19vh;
+    }
+
+    .aboutWrapper-1 {
+        flex-direction: column;
+    }
+
+    .aboutWrapper-2 {
+        width: 80%;
+    }
+
+    .left-text {
+        padding-top: 5%;
+    }
+
+    .aboutIMG {
+        margin-left: auto;
+    }
+
+    /* Art Page */
+
+    .artWrapper-2 {
+        flex-direction: column-reverse;
+        padding: 0% 5% 0% 5%;
+        width: 100%;
+    }
+
+    .left-image-art {
+        width: 100%;
+    }
+
+    .right-text-art {
+        width: 100%;
+    }
+
+    .artWrapper-3 {
+        padding: 5%;
+        width: 100%;
+    }
 }
+
+
+/* This is the test CSS */
