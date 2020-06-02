@@ -364,8 +364,9 @@ li a {
     margin-right: 10%;
     padding-top: 2%;
     font-size: 15px;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
+
  
 /* --------- Contact Form --------- */
  
@@ -413,6 +414,19 @@ label {
     font-size: 1.2rem;
 }
 
+.thankyouTXT{
+    font-family: "Roboto Condensed";
+    display: block;
+    text-align: center;
+}
+
+.btn-dark {
+    font-family: "Roboto Condensed";
+}
+
+.btnCSS {
+    text-align: center;
+}
 /* --------- Art Content --------- */
 
 .art-header {
