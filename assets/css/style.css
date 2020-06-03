@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
  
+/* General */
+
 body {
   font-family: Arial;
   margin: 0;
@@ -15,11 +17,11 @@ a:hover {
     color: black;
 }
 
-    /* Social  Icons CSS */
-    .grow:hover {
-        transform: scale(1.2);
-        transition: all .2s ease-in-out;
-    }
+/* Social  Icons CSS */
+.grow:hover {
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
  
 /* Header/Logo Title/Navbar */
 .header{
@@ -214,7 +216,7 @@ li a {
 .top-p {
     font-family: Roboto Condensed;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 4rem;
      
 }
@@ -262,7 +264,7 @@ li a {
  
 .left-text {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
  
 /* --------- Service Page Contents -------- */
@@ -460,7 +462,7 @@ label {
 .right-text-art{
     font-family: Roboto Condensed;
     font-size: 15px;
-    text-align: center;
+    text-align: left;;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 4%;
@@ -531,7 +533,7 @@ label {
  
 .footer {
     background-color: #BEB29B;
-    position: fixed; 
+    position: relative; 
     bottom: 0px; 
     width: 100%; 
     height: 50px;

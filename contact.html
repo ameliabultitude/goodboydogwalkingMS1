@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/8145f8be76.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/media-query-test.css">
-<title>Good Boy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8145f8be76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-query-test.css">
+    <title>Good Boy</title>
 </head>
 <body>
     <header>
@@ -54,20 +54,33 @@
             </p>
         </div>
         <div class="container">
-            <div class="form">
-                <form action="action_page.php">
-                    <label for="fname">Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <div class="form2">
+                    <form action="mailto:arinakhanna@hotmail.co.uk?subject=I have a question" method="POST" enctype="text/plain" class="was-validated">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                        <div class="valid-feedback"> Valid</div>
+                        <div class="invalid-feedback"> Name is required</div>
+                    </div>
 
-                    <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your email address.." required>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                        <div class="valid-feedback">Email is valid</div>
+                        <div class="invalid-feedback">Please fill out your email</div>
+                    </div>
 
-                    <label for="subject">Comments</label>
-                        <textarea id="Comments" name="comments" placeholder="In here, please write any queries you may have.." style="height:200px" required></textarea>
-                            <div class="btnCSS">
-                                <a href="contactextra.html" type="button" class="btn btn-dark">Submit</a>
-                            </div>
-                </form>
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea class="form-control" id="comments" placeholder="Please write your questions or comments in here.." name="comments" required></textarea>
+                        <div class="valid-feedback">Comments are nice. Thanks.</div>
+                        <div class="invalid-feedback">Enter comments or questions</div>
+                    </div>
+                    <div class="btnCSS">
+                    <button type="submit" class="btn btn-dark"> Submit</button>
+                </div>
+                    </form>
+                </div>
             </div>  
         </div>
         <div class="contact-text-2">
