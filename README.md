@@ -9,13 +9,13 @@ This is a repository which is created to showcase services offered. It gives a b
 
 ## Design
 ### Color Scheme
-This consists of BEB29B and the palet DFD7CB/DFD4C0. I used [ColorSchemeDesigner] (https://colorschemedesigner.com/csd-3.5/) to allow me to see this palet.
+This consists of BEB29B and the palet DFD7CB/DFD4C0. I used [ColorSchemeDesigner](https://colorschemedesigner.com/csd-3.5/) to allow me to see this palet.
 * BEB29B used for the Header and Footer
 * DFD7CB used for the background
 * Font color all in black
 * Roboto Condensed throughout the website
 ### Mock up
-Mock up created on (Figma) [https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/goodboy?node-id=0%3A1].
+Mock up created on [Figma](https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/goodboy?node-id=0%3A1).
 
 ## Features
 ### Features Planned
@@ -26,13 +26,13 @@ Mock up created on (Figma) [https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/go
 * Accessibility
 * Responsive
 * Bootstrap
-** Grid Schemes
-** Buttons
-** Forms
+  * Grid Schemes
+  * Buttons
+  * Forms
 * UX Elements
-** User Flow
-** Alignment
-** Images
+  * User Flow
+  * Alignment
+  * Images
 * Interactive Gallery
 * Multi Browser Functional
 * Git - Version Control System
@@ -46,13 +46,13 @@ Mock up created on (Figma) [https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/go
 * Accessibility
 * Responsive Design
 * Bootstrap
-** Grid Schemes
-** Buttons
-** Forms
+  * Grid Schemes
+  * Buttons
+  * Forms
 * UX Elements
-** User Flow
-** Alignment
-** Images
+  * User Flow
+  * Alignment
+  * Images
 * Git - Version Control System
 * GitHub - Remote Repository
 * VS Code - External Respository
@@ -64,37 +64,33 @@ Mock up created on (Figma) [https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/go
 
 ## Technology/Sites Used
 * HTML
-** HTML for strucutre
+  * HTML for strucutre
 * CSS
-** CSS for Styling
-* Google Chrome
-** Used for browser and dev tools
-* Mozilla Firefox
-** Used for browser and dev tools
+  * CSS for Styling
+* [Google Chrome](https://www.google.com/chrome/)
+    * Used for browser and dev tools
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new)
+    * Used for browser and dev tools
 * Apple Safari
-** Used for browser
-* Google
-** Google was used for research.
-* Bootstrap
-** HTML and CSS Framework from Bootstrap
-* Visual Studio Code
-** This project was built using the VS Code IDE
-* Git
-** Git used for Version Control
-* GitHub
-** Repository hosted on GitHub
-* Github Pages
-** Website hosted on Github Pages
-* Google Fonts
-** Imported Fonts
-* Font Awesome
-** Imported Icons
-* Slack
-** Forum
-* CSS Tricks
-** Help
-* Am I Responsive
-** Testing responsiveness of the website
+  * Used for browser
+* [Google](https://google.co.uk)
+  * Google was used for research.
+* [Bootstrap](https://getbootstrap.com/)
+  * HTML and CSS Framework from Bootstrap
+* [Visual Studio Code](https://code.visualstudio.com/)
+  * This project was built using the VS Code IDE
+* [GitHub](https://github.com/)
+  * Repository hosted on GitHub
+* [Github Pages](https://pages.github.com/)
+  * Website hosted on Github Pages
+* [Google Fonts](https://fonts.google.com/)
+  * Imported Fonts
+* [Font Awesome](https://fontawesome.com/)
+  * Imported Icons
+* [Slack](https://slack.com/intl/en-gb/)
+  * Forum
+* [Am I Responsive](http://ami.responsivedesign.is)
+  * Testing responsiveness of the website
 
 ## Testing
 Throughout my project, I put my site under lots of tests to ensure it worked correctly. The tests I ran are...
@@ -114,11 +110,11 @@ The expected audience of this site is clients wanting a service for their pet. I
 
 ## User Scenarios
 * A client would like to find the services offered
-** Finding the Services page and reading the services
+  * Finding the Services page and reading the services
 * A client would like to know more information
-** Using the Keep in Touch page, comments and questions are able to be submitted with an email response back.
+  * Using the Keep in Touch page, comments and questions are able to be submitted with an email response back.
 * A client would like a commission for a portrait
-** On the Art page, there is an email for contacting regarding portraits.
+  * On the Art page, there is an email for contacting regarding portraits.
 
 
 ## Deployment
