@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 1024px) {
+media (min-width: @screen-lg-min) {
 
     .headerWrapper {
         height: 12vh;
@@ -21,15 +21,10 @@
         width: 40%;
     }
 }
-@media only screen and (max-device-width: 768px) {
-    
+@media (min-width: @screen-sm-min) { 
     .nav-link {
         padding: 0.5rem 0.5rem;
     }
-}
-
-
-@media only screen and (max-device-width: 480px) {
 
     .nav-link {
         padding: 0.5rem 1rem;
@@ -90,6 +85,3 @@
         width: 100%;
     }
 }
-
-
-/* This is the test CSS */
