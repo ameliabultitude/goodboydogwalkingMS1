@@ -40,22 +40,17 @@ a:hover {
 }
 
 .headerWrapper{
-    height: 16vh;
+    height: 15vh;
 }
  
 .header-lrg {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 38px;
 }
  
 .header-med{
     font-weight: normal;
-    font-size: 30px;
-}
- 
-.header.sml{
-    font-weight: lighter;
-    font-size: 15px;
+    font-size: 20px;
 }
  
 .navbar{
@@ -448,7 +443,7 @@ label {
 .left-text-art{
     font-family: Roboto Condensed;
     font-size: 15px;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 4%;
@@ -457,6 +452,11 @@ label {
 
 .left-image-art {
     width: 70%;
+}
+
+.artPrice {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .right-text-art{

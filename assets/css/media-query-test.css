@@ -3,9 +3,37 @@
     .headerWrapper {
         height: 12vh;
     }
+
+    .about-header {
+        padding-bottom: 2%;
+    }
+
+    .left-image {
+        padding: 0% 4% 4% 4%;
+    }
+
+    .aboutWrapper-1 {
+        flex-direction: column;
+    }
+
+    .aboutIMG {
+        margin-left: auto;
+        width: 40%;
+    }
+}
+@media only screen and (max-device-width: 768px) {
+    
+    .nav-link {
+        padding: 0.5rem 0.5rem;
+    }
 }
 
+
 @media only screen and (max-device-width: 480px) {
+
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
  
     .spacer, .spacer2, .spacer3 {
         display: none;
