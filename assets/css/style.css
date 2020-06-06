@@ -222,6 +222,7 @@ a:hover {
 .left-text {
     width: 100%;
     text-align: left;
+    padding: 4% 0% 4% 0%;
 }
  
 /* ---- Service Page Contents ---- */
@@ -519,10 +520,6 @@ label {
 } 
 
 @media (max-device-width:768px) {
-
-    .aboutWrapper-1 {
-        flex-direction: column;
-    }
 
     .aboutIMG {
         margin-left: auto;
