@@ -24,13 +24,13 @@ a:hover {
     transition: all .2s ease-in-out;
 }
 
-/* ---- Logo ---- */
-
-
 /* ---- Navbar ---- */
 
 .navbar-custom{
     background-color: #BEB29B !important;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    position: fixed;
 }
 
 .nav-link{
@@ -51,15 +51,11 @@ a:hover {
     padding: 0;
 }
 
-.
- 
-/* ---- Mobile ----*/
- 
-body {
-     background-color: #dffaff;
-     opacity: 0.7;
- }
- 
+.navbar-nav > li{
+    padding-left:5px;
+    padding-right:5px;
+  }
+
 /* ---- Backgrounds ---- */
  
 #bg-image{
@@ -154,6 +150,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 /* ---- About Content ---- */
  
 .about-header {
@@ -475,6 +472,7 @@ label {
     padding-top: 4%;
     padding-bottom: 4%;
 }
+
 /* ---- Art Pictures ---- */
 
 .artIMG1{
@@ -494,6 +492,7 @@ label {
     height: 100%;
     background-image:url("../images/art3.jpg");
 }
+
 /* ---- Footer ---- */
  
 .footer {
@@ -513,8 +512,25 @@ label {
 }
  
 /* ---- Media ---- */
- 
-@media (max-device-width: 600px){
+@media (max-device-width: 425px) {
+    .boxesWrapper {
+        flex-direction: column;
+    }
+} 
+
+@media (max-device-width:768px) {
+
+    .aboutWrapper-1 {
+        flex-direction: column;
+    }
+
+    .aboutIMG {
+        margin-left: auto;
+        width: 45%;
+    }
+
+}
+@media (max-device-width: 600px) {
  
     .header {
         width: 100%;
@@ -600,7 +616,7 @@ label {
         vertical-align: top;
         width: 50%;
     }
-}
+}    
  
 @media (min-device-width: 1024px)(max-device-width: 1366px){
  
