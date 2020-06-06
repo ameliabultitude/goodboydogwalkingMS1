@@ -196,7 +196,7 @@ a:hover {
  
 .aboutWrapper-1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
  
