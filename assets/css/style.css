@@ -17,85 +17,50 @@ a:hover {
     color: black;
 }
 
-/* Social  Icons CSS */
+/* ---- Social Icons CSS ---- */
+
 .grow:hover {
     transform: scale(1.2);
     transition: all .2s ease-in-out;
 }
- 
-/* Header/Logo Title/Navbar */
-.header{
-    padding-top: 1%;
-    padding-bottom: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
-    text-align: left;
-    background: #BEB29B;
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+
+/* ---- Logo ---- */
+
+
+/* ---- Navbar ---- */
+
+.navbar-custom{
+    background-color: #BEB29B !important;
 }
 
-.headerWrapper{
-    height: 10vh;
-}
- 
-.header-lrg {
-    font-weight: bold;
-    font-size: 38px;
-}
- 
-.header-med{
-    font-weight: normal;
-    font-size: 20px;
-}
- 
-.navbar{
-    width: 100%;
-    text-align: right;
-    color: black;
-    display: block;
-}
- 
-.navbar a:hover {
-  background-color: #7c6232;
+.nav-link{
+  text-decoration: none;
   color: black;
 }
- 
-.justify-content-end{
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 15px;  
+
+.navbar-nav, .ml-auto{
+    margin-left: 0 !important;
 }
- 
-li a {
-    color: black;
-    text-transform: uppercase;
+.navbar-nav{
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
- 
-.logo {
-    width:40%;
-    text-align: center;
-    text-decoration: none;
-    color: #000000;
+
+.nav.link{
+    padding: 0;
 }
+
+.
  
-.logo a:hover{
-    background-color: #BEB29B;
-    color: #000000;
-    text-decoration: none;
-}
+/* ---- Mobile ----*/
  
-/* --------- Mobile ---------*/
- 
-.body {
+body {
      background-color: #dffaff;
      opacity: 0.7;
  }
  
-/* --------- Backgrounds -------- */
+/* ---- Backgrounds ---- */
  
 #bg-image{
     height:100%;
@@ -116,7 +81,7 @@ li a {
 }
 
  
-/* --------- Index Page Contents -------- */
+/* ---- Index Page Contents ---- */
 .content {
     padding:10%;
     position: relative;
@@ -148,7 +113,7 @@ li a {
     background-color: rgba(196, 196, 196, 0.63);
 }
  
-/* --------- Banners --------- */
+/* ---- Banners ---- */
  
 .hero-img-about {
     background: url("../images/dog4.jpg");
@@ -189,7 +154,7 @@ li a {
     background-size: cover;
     background-position: center;
 }
-/* --------- About Content --------- */
+/* ---- About Content ---- */
  
 .about-header {
     font-family: Roboto Condensed;
@@ -262,7 +227,7 @@ li a {
     text-align: left;
 }
  
-/* --------- Service Page Contents -------- */
+/* ---- Service Page Contents ---- */
  
 .bg-color-services{
     background-color: #dfd4c0;
@@ -314,7 +279,7 @@ li a {
     padding: 4%;
 }
  
-/* --------- Service Pictures --------- */
+/* ---- Service Pictures ---- */
  
 .walkIMG{
     display: block;
@@ -324,7 +289,7 @@ li a {
     height: auto;
 }
  
-/* --------- Contact Content --------- */
+/* ---- Contact Content ---- */
  
 .contact-header {
     font-family: Roboto Condensed;
@@ -365,7 +330,7 @@ li a {
 }
 
  
-/* --------- Contact Form --------- */
+/* ---- Contact Form ---- */
  
  
 input, select, textarea {
@@ -424,7 +389,7 @@ label {
 .btnCSS {
     text-align: center;
 }
-/* --------- Art Content --------- */
+/* ---- Art Content ---- */
 
 .art-header {
     font-family: Roboto Condensed;
@@ -510,7 +475,7 @@ label {
     padding-top: 4%;
     padding-bottom: 4%;
 }
-/* --------- Art Pictures --------- */
+/* ---- Art Pictures ---- */
 
 .artIMG1{
     width: 100%;
@@ -529,7 +494,7 @@ label {
     height: 100%;
     background-image:url("../images/art3.jpg");
 }
-/* --------- Footer --------- */
+/* ---- Footer ---- */
  
 .footer {
     background-color: #BEB29B;
@@ -547,7 +512,7 @@ label {
     text-decoration: none;
 }
  
-/* Media */
+/* ---- Media ---- */
  
 @media (max-device-width: 600px){
  
@@ -616,7 +581,6 @@ label {
         left: 0%;
         top: 0%;
         background-color: rgba(196, 196, 196, 0.63);
- 
     }
  
     .content {
@@ -630,7 +594,7 @@ label {
         justify-content: center !important;
     }
 
-    /* ----- Image on about ----- */
+    /* ---- Image on about ---- */
 
     .left-image{
         vertical-align: top;
@@ -679,7 +643,7 @@ label {
     }
  
 
-    /* ----- Image on about ----- */
+    /* ---- Image on about ---- */
 
     .left-image{
         vertical-align: top;

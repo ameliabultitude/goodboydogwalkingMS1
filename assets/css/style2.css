@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
+
+body, html {
+    height: 100%;
+  }
+
+/* ---- Navbar ---- */
+
+.navbar-custom{
+    background-color: #BEB29B !important;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+
+/*---- Background Img ---- */
+
+.bg {
+    background-image: url("../images/dog5.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
