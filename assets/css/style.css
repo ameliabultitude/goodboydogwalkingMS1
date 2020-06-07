@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300;400&display=swap');
  
-/* General */
+/* ---- General ---- */
 
-body {
+body, html {
   font-family: Arial;
   margin: 0;
-  height: auto;
+  height: 100%;
 }
  
 section {
@@ -35,7 +35,7 @@ a:hover {
 
 .nav-link{
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .navbar-nav, .ml-auto{
@@ -59,9 +59,9 @@ a:hover {
 /* ---- Backgrounds ---- */
  
 #bg-image{
-    height:100%;
+    height: 100%;
     width: 100%;
-    background-image: url("../images/dog5.jpg");
+    background-image: url(../images/dog5.jpg);
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ a:hover {
     color: #000000;
     text-align: center;
     margin-bottom: 15%;
-    margin-top: 6%;
+    margin-top: 15%;
 }
  
 .content-box {
@@ -187,6 +187,7 @@ a:hover {
     margin-left: none;
     margin-right: auto;
     width: 80%;
+    padding-bottom: 5%;
 }
  
 .aboutIMG2 {
@@ -201,8 +202,8 @@ a:hover {
 }
  
 .aboutWrapper-1half {
-    padding-top: 3%;
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -222,7 +223,7 @@ a:hover {
 .left-text {
     width: 100%;
     text-align: left;
-    padding: 4% 0% 4% 0%;
+    padding: 0% 0% 4% 0%;
 }
  
 /* ---- Service Page Contents ---- */
@@ -347,7 +348,7 @@ input, select, textarea {
 input[type=submit] {
     font-family: Roboto Condensed;
     background-color: #BEB29B;
-    color: black;
+    color: #000000;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -506,13 +507,14 @@ label {
  
 .social-icons{
     font-size: 32px;
-    color:black;
+    color:#000000;
     text-align: center;
     letter-spacing: 12px;
     text-decoration: none;
 }
  
 /* ---- Media ---- */
+
 @media (max-device-width: 425px) {
     .boxesWrapper {
         flex-direction: column;
@@ -541,7 +543,7 @@ label {
     }
  
     .content-head {
-        color: black;
+        color: #000;
         margin-top: 50%;
         margin-bottom: 10%;
     }
@@ -559,6 +561,7 @@ label {
     .content {
         text-align: center;
     }
+
     .logo {
         width: 100%;
     }
@@ -599,6 +602,7 @@ label {
     .content {
         text-align: center;
     }
+
     .logo {
         width: 100%;
     }
@@ -609,7 +613,7 @@ label {
 
     /* ---- Image on about ---- */
 
-    .left-image{
+    .left-image {
         vertical-align: top;
         width: 50%;
     }
@@ -641,7 +645,6 @@ label {
         left: 0%;
         top: 0%;
         background-color: rgba(196, 196, 196, 0.63);
- 
     }
  
     .content {
@@ -655,7 +658,6 @@ label {
         justify-content: center !important;
     }
  
-
     /* ---- Image on about ---- */
 
     .left-image{
