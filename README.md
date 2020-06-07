@@ -19,7 +19,7 @@ This consists of BEB29B and the palet DFD7CB/DFD4C0. I used [ColorSchemeDesigner
 ### Wireframe
 This wireframe was created on [Figma](https://www.figma.com/) during my planning and designing process. 
 I found [Figma](https://www.figma.com/) easy to use and very helpful to adjust my design if needed.
-The main wireframe can be seen on this link [here]((https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/goodboy?node-id=0%3A1).
+The main wireframe can be seen on this link [here](https://www.figma.com/file/d0o10f4rwLb0JekvXAIbib/goodboy?node-id=0%3A1).
 
 ## Features
 ### Features Planned
