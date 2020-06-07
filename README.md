@@ -10,6 +10,7 @@ This can be seen here - [Click Here](https://ameliabultitude.github.io/Milestone
 
 ## Design
 ### Color Scheme
+![Image of Color Scheme](assets/images/colorscheme.jpg)
 This consists of BEB29B and the palet DFD7CB/DFD4C0. I used [ColorSchemeDesigner](https://colorschemedesigner.com/csd-3.5/) to allow me to see this palet.
 * BEB29B used for the Header and Footer
 * DFD7CB used for the background
