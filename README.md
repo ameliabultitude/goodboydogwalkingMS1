@@ -141,6 +141,12 @@ The expected audience of this site is clients wanting a service for their pet. I
 * Use of Bootstrap supported this fix
 ### Verdict
 * The image now sits on top of the text 
+### Bug
+* Centering navbar items on a mobile screen was not coming through
+### Fix
+* Use of CSS to support this
+### Verdict
+* The navbar elements are still not centered on mobile devices, this bug was left.
 
 ## Deployment
 The project is hosted on [GitHub Pages](http://github.com) and is written in [VS Code](https://code.visualstudio.com/)
